@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::get('/ekipa', function () {
+//    return view('team');
+//});
+
+Route::get('/ekipa', 'App\Http\Controllers\TeamsController@show')->name("ekipa");
