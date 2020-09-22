@@ -24,14 +24,14 @@
 </head>
 
 <body>
-
 <!-- Navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
 
         <!-- Brand -->
         <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-            <strong>UNI Maribor GPE</strong>
+            <img height="40px" src="images/GPE_logo.png">
+{{--            <strong>UNI Maribor GPE</strong>--}}
         </a>
 
         <!-- Collapse -->
@@ -53,9 +53,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{route("ekipa")}}">O ekipi</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Dirkalniki</a>
-                </li>
+                <div class="dropdown">
+                    <button class="dropbtn">Dirkalniki</button>
+                    <div class="dropdown-content">
+                        @foreach ($formulas as $formula)
+                            <a class="nav-link" href="#">{{$formula->official_name}} </a>
+                        @endforeach
+                    </div>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Novice</a>
                 </li>
