@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Models\Formula;
+use Illuminate\Support\Facades\Route;
+use App\Models\Sponsor;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,8 +15,10 @@ use App\Models\Formula;
 */
 
 Route::get('/', function () {
+
     return view('welcome', [
-        'formulas' => Formula::latest()->get()
+        'formulas' => Formula::latest()->get(),
+        'sponsors' => Sponsor::all(),
     ]);
 });
 
