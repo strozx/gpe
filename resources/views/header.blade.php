@@ -16,7 +16,7 @@
     <style type="text/css">
         @media (min-width: 800px) and (max-width: 850px) {
             .navbar:not(.top-nav-collapse) {
-                background: #1C2331 !important;
+                background: #a20000 !important;
             }
         }
 

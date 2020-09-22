@@ -20,7 +20,7 @@
             <div class="view mx-auto d-block" style="   display: block;  margin-left: auto;  margin-right: auto;  width: 100%; background-image: url('images/slides/1.jpg'); background-repeat: no-repeat; background-size: cover;">
 
                 <!-- Mask & flexbox options-->
-{{--                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">--}}
+                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
 {{--                    <!-- Content -->--}}
 {{--                    <div class="text-center white-text mx-5 wow fadeIn">--}}
@@ -45,7 +45,7 @@
 {{--                    </div>--}}
 {{--                    <!-- Content -->--}}
 
-{{--                </div>--}}
+                </div>
                 <!-- Mask & flexbox options-->
 
             </div>
