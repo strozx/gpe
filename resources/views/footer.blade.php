@@ -18,16 +18,14 @@
 
     <!-- Social icons -->
     <div class="pb-4">
-        <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+        <a href="https://www.facebook.com/gpe.uni.mb" class="nav-link" target="_blank">
             <i class="fab fa-facebook-f mr-3"></i>
         </a>
-
-        <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-            <i class="fab fa-youtube mr-3"></i>
-        </a>
-
-        <a href="http://codepen.io/mdbootstrap/" target="_blank">
+        <a href="https://www.instagram.com/unimbgpe/" class="nav-link" target="_blank">
             <i class="fab fa-instagram mr-3"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCIv_LONORJEYdCtDUTvSc8w" target="_blank">
+            <i class="fab fa-youtube mr-3"></i>
         </a>
     </div>
     <!-- Social icons -->

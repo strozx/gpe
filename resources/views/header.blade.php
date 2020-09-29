@@ -74,12 +74,12 @@
             <!-- Right -->
             <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item">
-                    <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+                    <a href="https://www.facebook.com/gpe.uni.mb" class="nav-link" target="_blank">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+                    <a href="https://www.instagram.com/unimbgpe/" class="nav-link" target="_blank">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </li>
