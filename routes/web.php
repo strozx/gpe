@@ -26,4 +26,4 @@ Route::get('/', function () {
 //    return view('team');
 //});
 
-Route::get('/ekipa', 'App\Http\Controllers\TeamsController@show')->name("ekipa");
+Route::get('/ekipa', 'App\Http\Controllers\TeamController@show')->name("ekipa");

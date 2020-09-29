@@ -14,8 +14,13 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // User::factory(10)->create();
-        FormulasSeeder::class;
-        CompetitonsSeeder::class;
-        SponsorsSeeder::class;
+        $this->call([
+            FormulasSeeder::class,
+            CompetitonsSeeder::class,
+            SponsorsSeeder::class,
+            DepartmensSeeder::class,
+            SubdepartmentsSeeder::class,
+            TeamsSeeder::class,
+        ]);
     }
 }
