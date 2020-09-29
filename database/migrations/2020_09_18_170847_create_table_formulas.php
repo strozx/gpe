@@ -25,6 +25,7 @@ class CreateTableFormulas extends Migration
             $table->string("fuel");
             $table->string("acceleration");
             $table->string("gearbox");
+            $table->string("image");
             $table->timestamps();
         });
     }

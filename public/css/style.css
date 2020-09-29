@@ -103,3 +103,16 @@ button {
     padding-left: 1em;
     font-size: x-large;
 }
+.car-data {
+    height: 10em;
+    background: white;
+    width: 101%;
+    position: absolute;
+    bottom: 0;
+    /*border: 1px solid red;*/
+    border-bottom: 2px solid #DC0E13;
+}
+.icon-color {
+    color: #DC0E13;
+}
+.

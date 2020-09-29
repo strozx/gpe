@@ -1,6 +1,42 @@
 @include('header')
 
 
+    <div class="view mx-auto d-block" style="   display: block;  margin-left: auto;  margin-right: auto;  width: 100%;
+        background-image: url({{asset('images/slides/1.jpg')}}); background-repeat: no-repeat;
+        background-size: cover;">
+        <div class="car-data row">
+            <div class="col-3 " style=" padding-top: 1.5em;">
+                <div class="d-flex justify-content-center">
+                    <i class="fas fa-weight fa-5x icon-color"></i><br>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p style="font-weight: bold; color: #DC0E13; font-size: xx-large">{{$formula->weight}} Kg</p>
+                </div>
+            </div>
+
+            <div class="col-3 " style=" margin-left: 10%; padding-top: 1.5em;">
+                <div class="d-flex justify-content-center">
+                    <i class="fas fa-horse fa-5x icon-color"></i>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p style="font-weight: bold; color: #DC0E13; font-size: xx-large">{{$formula->power}} HP</p>
+                </div>
+            </div>
+            <div class="col-3 " style="margin-left: 10%;padding-top: 1.5em;">
+                <div class="d-flex justify-content-center">
+                    <i class="fas fa-tachometer-alt fa-5x icon-color"></i>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p style="font-weight: bold; color: #DC0E13; font-size: xx-large">{{$formula->acceleration}} s</p>
+                </div>
+            </div>
+{{--            <div class="col-4" style="border: 1px solid red;">--}}
+{{--                <i class="fas fa-calendar-alt"></i>--}}
+{{--            </div>--}}
+{{--            <p>dsnkijngsdoilkiknol</p>--}}
+        </div>
+    </div>
+
 <main>
     <div class="container">
 

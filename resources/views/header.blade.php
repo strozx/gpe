@@ -30,7 +30,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand"  href="{{url('/')}}">
-            <img height="40px" src="images/GPE_logo.png">
+            <img height="40px" src="{{asset('images/GPE_logo.png')}}">
         </a>
 
         <!-- Collapse -->
@@ -56,7 +56,7 @@
                     <button class="dropbtn">Dirkalniki</button>
                     <div class="dropdown-content">
                         @foreach ($formulas as $formula)
-                            <a class="nav-link" href="#">{{$formula->official_name}} </a>
+                            <a class="nav-link" href="dirkalniki/{{$formula->official_name}}">{{$formula->official_name}} </a>
                         @endforeach
                     </div>
                 </div>
