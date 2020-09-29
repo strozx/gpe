@@ -14,9 +14,9 @@
                 <div class="card col-5">
                     <img src="images/team/example.png" alt="Avatar" style="width:100%">
                     <div class="container-card">
-                        <h1 style="font-size:3vw;"><b>{{$teammember->name.' '.$teammember->surname}}</b></h1>
-                        <p style="font-size:1.5vw;">{{ $subdepartments->name }}</p>
-                        <p style="font-size:1.5vw;">{{$teammember->mail}}</p>
+                        <h1 ><b>{{$teammember->name.' '.$teammember->surname}}</b></h1>
+                        <p >{{ $subdepartments->name }}</p>
+                        <p >{{$teammember->mail}}</p>
                     </div>
 
                 </div>

@@ -29,9 +29,8 @@
     <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <a class="navbar-brand"  href="{{url('/')}}">
             <img height="40px" src="images/GPE_logo.png">
-{{--            <strong>UNI Maribor GPE</strong>--}}
         </a>
 
         <!-- Collapse -->
@@ -45,12 +44,12 @@
 
             <!-- Left -->
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Domov
-                        <span class="sr-only">(current)</span>
+                <li class="nav-item {{ (request()->is('/')) ? 'active' : '' }}">
+                <a class="nav-link" href="{{url('/')}}">Domov
+{{--                        <span class="sr-only">(current)</span>--}}
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ (request()->is('ekipa')) ? 'active' : '' }}">
                     <a class="nav-link" href="{{route("ekipa")}}">O ekipi</a>
                 </li>
                 <div class="dropdown">
@@ -61,13 +60,13 @@
                         @endforeach
                     </div>
                 </div>
-                <li class="nav-item">
+                <li class="nav-item {{ (request()->is('novice')) ? 'active' : '' }}">
                     <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Novice</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ (request()->is('sponzorji')) ? 'active' : '' }}">
                     <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Za sponzorje</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ (request()->is('kontakt')) ? 'active' : '' }}">
                     <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Kontakt</a>
                 </li>
             </ul>
