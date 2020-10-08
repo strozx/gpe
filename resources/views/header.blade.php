@@ -13,6 +13,7 @@
     <link href="{{ asset('css/mdb.css') }}" rel="stylesheet">
     {{--<!-- Your custom styles (optional) -->--}}
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <script src="https://openlayers.org/api/OpenLayers.js"></script>
     <style type="text/css">
         @media (min-width: 800px) and (max-width: 850px) {
             .navbar:not(.top-nav-collapse) {
@@ -25,7 +26,7 @@
 
 <body>
 <!-- Navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
 
         <!-- Brand -->
@@ -67,7 +68,7 @@
                     <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Za sponzorje</a>
                 </li>
                 <li class="nav-item {{ (request()->is('kontakt')) ? 'active' : '' }}">
-                    <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Kontakt</a>
+                    <a class="nav-link" href="{{route("contact")}}">Kontakt</a>
                 </li>
             </ul>
 

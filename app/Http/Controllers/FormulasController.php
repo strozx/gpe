@@ -12,7 +12,6 @@ class FormulasController extends Controller
     {
         $formula = Formula::where('official_name',$car )->first();
         $formulas = Formula::latest()->get();
-        $i=0;
         return view('formula',compact('formula','formulas'));
     }
 }

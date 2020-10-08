@@ -115,4 +115,7 @@ button {
 .icon-color {
     color: #DC0E13;
 }
-.
+#mapdiv {
+    height: 14em;
+    width: 100%;
+}

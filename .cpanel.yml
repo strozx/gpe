@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gpesi19/public_html/dev.gpe.si
+    - /bin/cp -R * $DEPLOYPATH

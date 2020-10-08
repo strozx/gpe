@@ -28,3 +28,4 @@ Route::get('/', function () {
 
 Route::get('/ekipa', 'App\Http\Controllers\TeamController@show')->name("ekipa");
 Route::get('/dirkalniki/{car}', 'App\Http\Controllers\FormulasController@show')->name("formula");
+Route::get('/kontakt', 'App\Http\Controllers\ContactController@show')->name("contact");
