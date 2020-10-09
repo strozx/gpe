@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1df2f3f6-38c5-4238-9442-7dbb57f842c9" name="Default Changelist" comment="phpstorm shit">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +211,7 @@
       <workItem from="1602240725324" duration="72000" />
       <workItem from="1602241009187" duration="20000" />
       <workItem from="1602241147635" duration="138000" />
-      <workItem from="1602241656706" duration="2901000" />
+      <workItem from="1602241656706" duration="3857000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1600600918928</created>
@@ -326,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602244637328</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="phpstorm shit">
+      <created>1602244900074</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602244900074</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,10 +457,10 @@
       <screen x="0" y="27" width="2560" height="1003" />
     </state>
     <state x="150" y="148" width="1612" height="737" key="SettingsEditor/0.27.2560.1003@0.27.2560.1003" timestamp="1601382248672" />
-    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602244638834">
+    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602244901830">
       <screen x="0" y="27" width="2560" height="1003" />
     </state>
-    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.2560.1003@0.27.2560.1003" timestamp="1602244638834" />
+    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.2560.1003@0.27.2560.1003" timestamp="1602244901830" />
     <state x="1177" y="404" width="810" height="393" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600441724216">
       <screen x="0" y="27" width="2560" height="1003" />
     </state>
