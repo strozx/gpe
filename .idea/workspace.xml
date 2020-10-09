@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df2f3f6-38c5-4238-9442-7dbb57f842c9" name="Default Changelist" comment="htaccess 3">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="1df2f3f6-38c5-4238-9442-7dbb57f842c9" name="Default Changelist" comment="htaccess 5 and index.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +178,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -209,7 +212,7 @@
       <workItem from="1602240725324" duration="72000" />
       <workItem from="1602241009187" duration="20000" />
       <workItem from="1602241147635" duration="138000" />
-      <workItem from="1602241656706" duration="1740000" />
+      <workItem from="1602241656706" duration="2555000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1600600918928</created>
@@ -295,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602243477908</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="htaccess 4">
+      <created>1602243628262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602243628262</updated>
+    </task>
+    <task id="LOCAL-00014" summary="htaccess 5 and index.php">
+      <created>1602244477979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602244477979</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +342,9 @@
     <MESSAGE value="htaccess" />
     <MESSAGE value="htaccess 2" />
     <MESSAGE value="htaccess 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="htaccess 3" />
+    <MESSAGE value="htaccess 4" />
+    <MESSAGE value="htaccess 5 and index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="htaccess 5 and index.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="164" width="832" height="711" key="#SSH_Configurations" timestamp="1600865006692">
@@ -416,10 +435,10 @@
       <screen x="0" y="27" width="2560" height="1003" />
     </state>
     <state x="150" y="148" width="1612" height="737" key="SettingsEditor/0.27.2560.1003@0.27.2560.1003" timestamp="1601382248672" />
-    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602243484827">
+    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602244480138">
       <screen x="0" y="27" width="2560" height="1003" />
     </state>
-    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.2560.1003@0.27.2560.1003" timestamp="1602243484827" />
+    <state x="875" y="260" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.2560.1003@0.27.2560.1003" timestamp="1602244480138" />
     <state x="1177" y="404" width="810" height="393" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600441724216">
       <screen x="0" y="27" width="2560" height="1003" />
     </state>
